@@ -56,10 +56,13 @@ class CraftPluginCommand extends Command
     {
         $result = $this->callPackagistApi($input);
 
-
         $packages = $this->sortByName($input, $result);
 
-        $packages = $this->sortByCategory($input, $packages);
+        $orderBy = $input->getOption('orderBy');
+
+        if ($orderBy) {
+            $packages = $this->sortByCategory($packages, $orderBy);
+        }
 
         $this->createOutput($input, $output, $packages);
 
@@ -67,14 +70,19 @@ class CraftPluginCommand extends Command
         return Command::SUCCESS;
     }
 
-    protected function sortByCategory(InputInterface $input, array $result):array
+    protected function sortByCategory(array $result, string $orderBy): array
     {
-        $keys = array_column($result, 'name');
+
+        if (!in_array(strtolower($orderBy), $this->orderByOptions)) {
+            throw new \Exception($orderBy . ' is not supported as order');
+        }
+
+        $keys = array_column($result, $orderBy);
         array_multisort($keys, SORT_DESC, $result);
         return $result;
     }
 
-    protected function sortByName(InputInterface $input, array $result) :array
+    protected function sortByName(InputInterface $input, array $result): array
     {
         // sort by name , asc or desc
         $sort = SORT_DESC;
