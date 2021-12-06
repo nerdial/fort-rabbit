@@ -1,804 +1,403 @@
 [
     {
-        "name": "xpertbot\/craft-wheelform",
-        "description": "Craft CMS 3 Form administrator with Database integration",
-        "url": "https:\/\/packagist.org\/packages\/xpertbot\/craft-wheelform",
-        "repository": "https:\/\/github.com\/xpertbot\/craft-wheelform",
-        "downloads": 21680,
-        "favers": 65
-    },
-    {
-        "name": "wrav\/related",
-        "description": "A simple plugin that adds a widget within the Craft CP page sidebar, allowing you to quickly and easily access related entries.",
-        "url": "https:\/\/packagist.org\/packages\/wrav\/related",
-        "repository": "https:\/\/github.com\/wrav\/related",
-        "downloads": 13303,
-        "favers": 4
-    },
-    {
-        "name": "wrav\/oembed",
-        "description": "A simple plugin to extract media information from websites, like youtube videos, twitter statuses or blog articles.",
-        "url": "https:\/\/packagist.org\/packages\/wrav\/oembed",
-        "repository": "https:\/\/github.com\/wrav\/oembed",
-        "downloads": 54116,
-        "favers": 30
-    },
-    {
-        "name": "workingconcept\/craft-cloudflare",
-        "description": "Purge Cloudflare caches from Craft.",
-        "url": "https:\/\/packagist.org\/packages\/workingconcept\/craft-cloudflare",
-        "repository": "https:\/\/github.com\/workingconcept\/cloudflare-craft-plugin",
-        "downloads": 23352,
-        "favers": 21
-    },
-    {
-        "name": "wbrowar\/guide",
-        "description": "A CMS Guide for Craft CMS.",
-        "url": "https:\/\/packagist.org\/packages\/wbrowar\/guide",
-        "repository": "https:\/\/github.com\/wbrowar\/craft-guide",
-        "downloads": 16502,
-        "favers": 62
-    },
-    {
-        "name": "verbb\/workflow",
-        "description": "A Craft CMS plugin to create a workflow for publishing entries.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/workflow",
-        "repository": "https:\/\/github.com\/verbb\/workflow",
-        "downloads": 47652,
-        "favers": 134
-    },
-    {
-        "name": "verbb\/super-table",
-        "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/super-table",
-        "repository": "https:\/\/github.com\/verbb\/super-table",
-        "downloads": 605327,
-        "favers": 311
-    },
-    {
-        "name": "verbb\/smith",
-        "description": "Add copy, paste and clone functionality to Matrix blocks.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/smith",
-        "repository": "https:\/\/github.com\/verbb\/smith",
-        "downloads": 37541,
-        "favers": 22
-    },
-    {
-        "name": "verbb\/navigation",
-        "description": "A Craft CMS plugin to create navigation menus for your site.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/navigation",
-        "repository": "https:\/\/github.com\/verbb\/navigation",
-        "downloads": 220554,
-        "favers": 82
-    },
-    {
-        "name": "verbb\/image-resizer",
-        "description": "Image Resizer is a Craft plugin that resizes your assets when they are uploaded.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/image-resizer",
-        "repository": "https:\/\/github.com\/verbb\/image-resizer",
-        "downloads": 100903,
-        "favers": 127
-    },
-    {
-        "name": "verbb\/formie",
-        "description": "The most user-friendly forms plugin for Craft.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/formie",
-        "repository": "https:\/\/github.com\/verbb\/formie",
-        "downloads": 34752,
-        "favers": 51
-    },
-    {
-        "name": "verbb\/field-manager",
-        "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/field-manager",
-        "repository": "https:\/\/github.com\/verbb\/field-manager",
-        "downloads": 240212,
-        "favers": 199
-    },
-    {
-        "name": "verbb\/expanded-singles",
-        "description": "A simple plugin for Craft CMS that alters the Entries Index sidebar to list all Singles, rather than grouping them under a 'Singles' link.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/expanded-singles",
-        "repository": "https:\/\/github.com\/verbb\/expanded-singles",
-        "downloads": 164767,
-        "favers": 51
-    },
-    {
-        "name": "verbb\/cp-nav",
-        "description": "Control Panel Nav helps you managing your Control Panel navigation.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/cp-nav",
-        "repository": "https:\/\/github.com\/verbb\/cp-nav",
-        "downloads": 98132,
-        "favers": 130
-    },
-    {
-        "name": "verbb\/comments",
-        "description": "A Craft CMS plugin for managing comments directly within the CMS.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/comments",
-        "repository": "https:\/\/github.com\/verbb\/comments",
-        "downloads": 26971,
-        "favers": 129
-    },
-    {
-        "name": "verbb\/cloner",
-        "description": "Easily clone sections, entry types, category\/tag\/user groups, volumes, asset transforms and more.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/cloner",
-        "repository": "https:\/\/github.com\/verbb\/cloner",
-        "downloads": 48221,
-        "favers": 20
-    },
-    {
-        "name": "vaersaagod\/matrixmate",
-        "description": "Welding Matrix into shape, mate!",
-        "url": "https:\/\/packagist.org\/packages\/vaersaagod\/matrixmate",
-        "repository": "https:\/\/github.com\/vaersaagod\/matrixmate",
-        "downloads": 76848,
-        "favers": 35
-    },
-    {
-        "name": "vaersaagod\/dospaces",
-        "description": "DigitalOcean Spaces integration for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/vaersaagod\/dospaces",
-        "repository": "https:\/\/github.com\/vaersaagod\/dospaces",
-        "downloads": 27480,
-        "favers": 32
-    },
-    {
-        "name": "topshelfcraft\/wordsmith",
-        "description": "...because you have the best words.",
-        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/wordsmith",
-        "repository": "https:\/\/github.com\/TopShelfCraft\/Wordsmith",
-        "downloads": 152421,
-        "favers": 23
-    },
-    {
-        "name": "topshelfcraft\/supersort",
-        "description": "...a super-duper sorting function for your Craft templates.",
-        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/supersort",
-        "repository": "https:\/\/github.com\/TopShelfCraft\/SuperSort",
-        "downloads": 29633,
-        "favers": 40
-    },
-    {
-        "name": "topshelfcraft\/environment-label",
-        "description": "...so you don't forget where you are.",
-        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/environment-label",
-        "repository": "https:\/\/github.com\/TopShelfCraft\/Environment-Label",
-        "downloads": 95647,
-        "favers": 13
-    },
-    {
-        "name": "supercool\/tablemaker",
-        "description": "A user-definable table field type for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/supercool\/tablemaker",
-        "repository": "https:\/\/github.com\/supercool\/tablemaker",
-        "downloads": 84292,
-        "favers": 38
-    },
-    {
-        "name": "supercool\/buttonbox",
-        "description": "A collection of utility field types for Craft",
-        "url": "https:\/\/packagist.org\/packages\/supercool\/buttonbox",
-        "repository": "https:\/\/github.com\/supercool\/buttonbox",
-        "downloads": 30802,
-        "favers": 91
-    },
-    {
-        "name": "studioespresso\/craft-scout",
-        "description": "Craft Scout provides a simple solution for adding full-text search to your entries. Scout will automatically keep your search indexes in sync with your entries.",
-        "url": "https:\/\/packagist.org\/packages\/studioespresso\/craft-scout",
-        "repository": "https:\/\/github.com\/studioespresso\/craft-scout",
-        "downloads": 3201,
-        "favers": 72
-    },
-    {
-        "name": "studioespresso\/craft-dumper",
-        "description": "Bringing larapack\/dd to Craft 3",
-        "url": "https:\/\/packagist.org\/packages\/studioespresso\/craft-dumper",
-        "repository": "https:\/\/github.com\/studioespresso\/craft3-dumper",
-        "downloads": 112524,
-        "favers": 21
-    },
-    {
-        "name": "spicyweb\/craft-neo",
-        "description": "A Matrix-like field type that uses existing fields",
-        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-neo",
-        "repository": "https:\/\/github.com\/spicywebau\/craft-neo",
-        "downloads": 232634,
-        "favers": 392
-    },
-    {
-        "name": "spicyweb\/craft-fieldlabels",
-        "description": "Override Craft CMS field labels and instructions in the field layout designer",
-        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-fieldlabels",
-        "repository": "https:\/\/github.com\/spicywebau\/craft-fieldlabels",
-        "downloads": 27508,
-        "favers": 128
-    },
-    {
-        "name": "spicyweb\/craft-embedded-assets",
-        "description": "Manage YouTube videos, Instagram photos, Twitter posts and more as first class assets",
-        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-embedded-assets",
-        "repository": "https:\/\/github.com\/spicywebau\/craft-embedded-assets",
-        "downloads": 129032,
-        "favers": 171
-    },
-    {
-        "name": "spacecatninja\/imager-x",
-        "description": "Ninja powered image transforms.",
-        "url": "https:\/\/packagist.org\/packages\/spacecatninja\/imager-x",
-        "repository": "https:\/\/github.com\/spacecatninja\/craft-imager-x",
-        "downloads": 72176,
-        "favers": 16
-    },
-    {
-        "name": "solspace\/craft-freeform",
-        "description": "The most reliable, intuitive and powerful form builder for Craft.",
-        "url": "https:\/\/packagist.org\/packages\/solspace\/craft-freeform",
-        "repository": "https:\/\/github.com\/solspace\/craft3-freeform",
-        "downloads": 225658,
-        "favers": 32
-    },
-    {
-        "name": "sebastianlenz\/linkfield",
-        "description": "A Craft field type for selecting links",
-        "url": "https:\/\/packagist.org\/packages\/sebastianlenz\/linkfield",
-        "repository": "https:\/\/github.com\/sebastian-lenz\/craft-linkfield",
-        "downloads": 324746,
-        "favers": 105
-    },
-    {
-        "name": "rias\/craft-scout",
-        "description": "Craft Scout provides a simple solution for adding full-text search to your entries. Scout will automatically keep your search indexes in sync with your entries.",
-        "url": "https:\/\/packagist.org\/packages\/rias\/craft-scout",
-        "repository": "https:\/\/github.com\/studioespresso\/craft-scout",
-        "downloads": 69937,
-        "favers": 72,
-        "abandoned": "studioespresso\/craft-scout"
-    },
-    {
-        "name": "putyourlightson\/craft-sprig",
-        "description": "A reactive Twig component framework for Craft.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-sprig",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-sprig",
-        "downloads": 35291,
-        "favers": 92
-    },
-    {
-        "name": "putyourlightson\/craft-elements-panel",
-        "description": "Adds an Elements and an Eager-Loading panel to the debug toolbar.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-elements-panel",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-elements-panel",
-        "downloads": 20244,
-        "favers": 25
-    },
-    {
-        "name": "putyourlightson\/craft-blitz-recommendations",
-        "description": "Adds a utility that provides templating performance recommendations.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-blitz-recommendations",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-blitz-recommendations",
-        "downloads": 21757,
-        "favers": 18
-    },
-    {
-        "name": "putyourlightson\/craft-blitz",
-        "description": "Intelligent static page caching for creating lightning-fast sites.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-blitz",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-blitz",
-        "downloads": 126408,
-        "favers": 122
-    },
-    {
-        "name": "percipioglobal\/craft-password-policy",
-        "description": "Enforce a password policy on your users.",
-        "url": "https:\/\/packagist.org\/packages\/percipioglobal\/craft-password-policy",
-        "repository": "https:\/\/github.com\/percipioglobal\/craft-password-policy",
-        "downloads": 21361,
-        "favers": 26
-    },
-    {
-        "name": "percipioglobal\/craft-colour-swatches",
-        "description": "Let clients choose from a predefined set of colours.",
-        "url": "https:\/\/packagist.org\/packages\/percipioglobal\/craft-colour-swatches",
-        "repository": "https:\/\/github.com\/percipioglobal\/craft-colour-swatches",
-        "downloads": 25106,
-        "favers": 32
-    },
-    {
-        "name": "pennebaker\/craft-architect",
-        "description": "CraftCMS plugin to generate content models from JSON\/YAML data.",
-        "url": "https:\/\/packagist.org\/packages\/pennebaker\/craft-architect",
-        "repository": "https:\/\/github.com\/Pennebaker\/craft-architect",
-        "downloads": 66995,
-        "favers": 67
-    },
-    {
-        "name": "page-8\/craft-manytomany",
-        "description": "A Field Type plugin for Craft 3 that allows the management of relationships from both sides.",
-        "url": "https:\/\/packagist.org\/packages\/page-8\/craft-manytomany",
-        "repository": "https:\/\/github.com\/page-8\/craft-manytomany",
-        "downloads": 10190,
-        "favers": 80
-    },
-    {
-        "name": "ostark\/upper",
-        "description": "A cache plugin for Craft - supporting multiple Edge Caches",
-        "url": "https:\/\/packagist.org\/packages\/ostark\/upper",
-        "repository": "https:\/\/github.com\/ostark\/upper",
-        "downloads": 24847,
-        "favers": 94
-    },
-    {
-        "name": "ostark\/craft-async-queue",
-        "description": "A queue handler that moves queue execution to a non-blocking background process",
-        "url": "https:\/\/packagist.org\/packages\/ostark\/craft-async-queue",
-        "repository": "https:\/\/github.com\/ostark\/craft-async-queue",
-        "downloads": 138055,
-        "favers": 88
-    },
-    {
-        "name": "nystudio107\/craft-vite",
-        "description": "Allows the use of the Vite.js next generation frontend tooling with Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-vite",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-vite",
-        "downloads": 7668,
-        "favers": 23
-    },
-    {
-        "name": "nystudio107\/craft-typogrify",
-        "description": "Typogrify prettifies your web typography by preventing ugly quotes and 'widows' and more",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-typogrify",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-typogrify",
-        "downloads": 147393,
-        "favers": 69
-    },
-    {
-        "name": "nystudio107\/craft-twigpack",
-        "description": "Twigpack is a bridge between Twig and webpack, with manifest.json & webpack-dev-server HMR support",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-twigpack",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-twigpack",
-        "downloads": 123333,
-        "favers": 95
-    },
-    {
-        "name": "nystudio107\/craft-seomatic",
-        "description": "SEOmatic facilitates modern SEO best practices & implementation for Craft CMS 3. It is a turnkey SEO system that is comprehensive, powerful, and flexible.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-seomatic",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-seomatic",
-        "downloads": 531058,
-        "favers": 143
-    },
-    {
-        "name": "nystudio107\/craft-retour",
-        "description": "Retour allows you to intelligently redirect legacy URLs, so that you don't lose SEO value when rebuilding & restructuring a website",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-retour",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-retour",
-        "downloads": 279900,
-        "favers": 32
-    },
-    {
-        "name": "nystudio107\/craft-minify",
-        "description": "A simple plugin that allows you to minify blocks of HTML, CSS, and JS inline in Craft CMS templates.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-minify",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-minify",
-        "downloads": 202933,
-        "favers": 33
-    },
-    {
-        "name": "nystudio107\/craft-imageoptimize",
-        "description": "Automatically create & optimize responsive image transforms, using either native Craft transforms or a service like imgix, with zero template changes.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-imageoptimize",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-imageoptimize",
-        "downloads": 139959,
-        "favers": 232
-    },
-    {
-        "name": "nystudio107\/craft-emptycoalesce",
-        "description": "Empty Coalesce adds the ??? operator to Twig that will return the first thing that is defined, not null, and not empty.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-emptycoalesce",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-emptycoalesce",
-        "downloads": 45133,
-        "favers": 23
-    },
-    {
-        "name": "nystudio107\/craft-cookies",
-        "description": "A simple plugin for setting and getting cookies from within Craft CMS templates.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-cookies",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-cookies",
-        "downloads": 205432,
-        "favers": 36
-    },
-    {
-        "name": "mmikkel\/retcon",
-        "description": "Powerful Twig filters for mutating and querying HTML",
-        "url": "https:\/\/packagist.org\/packages\/mmikkel\/retcon",
-        "repository": "https:\/\/github.com\/mmikkel\/Retcon-Craft",
-        "downloads": 66298,
-        "favers": 68
-    },
-    {
-        "name": "mmikkel\/reasons",
-        "description": "Adds conditionals to field layouts.",
-        "url": "https:\/\/packagist.org\/packages\/mmikkel\/reasons",
-        "repository": "https:\/\/github.com\/mmikkel\/Reasons-Craft3",
-        "downloads": 33991,
-        "favers": 35
-    },
-    {
-        "name": "mmikkel\/cp-field-inspect",
-        "description": "Inspect field handles and easily edit field and element source settings",
-        "url": "https:\/\/packagist.org\/packages\/mmikkel\/cp-field-inspect",
-        "repository": "https:\/\/github.com\/mmikkel\/CpFieldInspect-Craft",
-        "downloads": 209131,
-        "favers": 29
-    },
-    {
-        "name": "misterbk\/mix",
-        "description": "Helper plugin for Laravel Mix in Craft CMS templates",
-        "url": "https:\/\/packagist.org\/packages\/misterbk\/mix",
-        "repository": "https:\/\/github.com\/mister-bk\/craft-plugin-mix",
-        "downloads": 83262,
-        "favers": 50
-    },
-    {
-        "name": "markhuot\/craftql",
-        "description": "A GraphQL implementation for Craft",
-        "url": "https:\/\/packagist.org\/packages\/markhuot\/craftql",
-        "repository": "https:\/\/github.com\/markhuot\/craftql",
-        "downloads": 37338,
-        "favers": 326
-    },
-    {
-        "name": "marionnewlevant\/twig-perversion",
-        "description": "Making twig do things it really shouldn't",
-        "url": "https:\/\/packagist.org\/packages\/marionnewlevant\/twig-perversion",
-        "repository": "https:\/\/github.com\/marionnewlevant\/craft-twig_perversion",
-        "downloads": 25366,
-        "favers": 47
-    },
-    {
-        "name": "marionnewlevant\/snitch",
-        "description": "Report when two people might be editing the same element (eg entry, category, or global) or field",
-        "url": "https:\/\/packagist.org\/packages\/marionnewlevant\/snitch",
-        "repository": "https:\/\/github.com\/marionnewlevant\/craft-snitch",
-        "downloads": 43872,
-        "favers": 34
-    },
-    {
-        "name": "lewisjenkins\/craft-dynamic-fields",
-        "description": "Populate Craft fields with dynamic data using the power of Twig.",
-        "url": "https:\/\/packagist.org\/packages\/lewisjenkins\/craft-dynamic-fields",
-        "repository": "https:\/\/github.com\/lewisjenkins\/craft-dynamic-fields",
-        "downloads": 24413,
-        "favers": 151
-    },
-    {
-        "name": "jalendport\/craft-queuemanager",
-        "description": "Job Queue Manager for Craft CMS.",
-        "url": "https:\/\/packagist.org\/packages\/jalendport\/craft-queuemanager",
-        "repository": "https:\/\/github.com\/jalendport\/craft-queuemanager",
-        "downloads": 31089,
-        "favers": 36
-    },
-    {
-        "name": "hybridinteractive\/craft-position-fieldtype",
-        "description": "Brings back the Position fieldtype from Craft 2",
-        "url": "https:\/\/packagist.org\/packages\/hybridinteractive\/craft-position-fieldtype",
-        "repository": "https:\/\/github.com\/hybridinteractive\/craft-position-fieldtype",
-        "downloads": 39673,
-        "favers": 14
-    },
-    {
-        "name": "hybridinteractive\/craft-contact-form-extensions",
-        "description": "Adds extensions to the Craft CMS contact form plugin.",
-        "url": "https:\/\/packagist.org\/packages\/hybridinteractive\/craft-contact-form-extensions",
-        "repository": "https:\/\/github.com\/hybridinteractive\/craft-contact-form-extensions",
-        "downloads": 27022,
-        "favers": 38
-    },
-    {
-        "name": "hillholliday\/craft-user-manual",
-        "description": "Craft User Manual allows developers (or even content editors) to provide CMS documentation using Craft's built-in sections (singles, channels, or structures) to create a `User Manual` or `Help` section directly in the control panel.",
-        "url": "https:\/\/packagist.org\/packages\/hillholliday\/craft-user-manual",
-        "repository": "https:\/\/github.com\/RobErskine\/Craft-User-Manual",
-        "downloads": 34598,
-        "favers": 84
-    },
-    {
-        "name": "fruitstudios\/linkit",
-        "description": "One link field to rule them all.",
-        "url": "https:\/\/packagist.org\/packages\/fruitstudios\/linkit",
-        "repository": "https:\/\/github.com\/presseddigital\/linkit",
-        "downloads": 184327,
-        "favers": 24
-    },
-    {
-        "name": "focuslabllc\/craft-cheat-sheet",
-        "description": "A fast and customized set of instantly usable Field code samples.",
-        "url": "https:\/\/packagist.org\/packages\/focuslabllc\/craft-cheat-sheet",
-        "repository": "https:\/\/github.com\/focuslabllc\/craft-cheat-sheet",
-        "downloads": 15836,
-        "favers": 216
-    },
-    {
-        "name": "ether\/tags",
-        "description": "A tag manager for Craft 3",
-        "url": "https:\/\/packagist.org\/packages\/ether\/tags",
-        "repository": "https:\/\/github.com\/ethercreative\/tags",
-        "downloads": 88841,
-        "favers": 20
-    },
-    {
-        "name": "ether\/simplemap",
-        "description": "A beautifully simple Map field type for Craft CMS 3",
-        "url": "https:\/\/packagist.org\/packages\/ether\/simplemap",
-        "repository": "https:\/\/github.com\/ethercreative\/simplemap",
-        "downloads": 137468,
-        "favers": 136
-    },
-    {
-        "name": "ether\/seo",
-        "description": "SEO utilities including a unique field type, sitemap, & redirect manager",
-        "url": "https:\/\/packagist.org\/packages\/ether\/seo",
-        "repository": "https:\/\/github.com\/ethercreative\/seo",
-        "downloads": 179008,
-        "favers": 222
-    },
-    {
-        "name": "ether\/logs",
-        "description": "Access logs from the CP",
-        "url": "https:\/\/packagist.org\/packages\/ether\/logs",
-        "repository": "https:\/\/github.com\/ethercreative\/logs",
-        "downloads": 97722,
-        "favers": 10
-    },
-    {
-        "name": "doublesecretagency\/craft-siteswitcher",
-        "description": "Easily switch between sites on any page of your website.",
-        "url": "https:\/\/packagist.org\/packages\/doublesecretagency\/craft-siteswitcher",
-        "repository": "https:\/\/github.com\/doublesecretagency\/craft-siteswitcher",
-        "downloads": 29535,
-        "favers": 66
-    },
-    {
-        "name": "doublesecretagency\/craft-inventory",
-        "description": "Take stock of your field usage.",
-        "url": "https:\/\/packagist.org\/packages\/doublesecretagency\/craft-inventory",
-        "repository": "https:\/\/github.com\/doublesecretagency\/craft-inventory",
-        "downloads": 51491,
-        "favers": 65
-    },
-    {
-        "name": "doublesecretagency\/craft-cpjs",
-        "description": "Add custom JavaScript to your Control Panel.",
-        "url": "https:\/\/packagist.org\/packages\/doublesecretagency\/craft-cpjs",
-        "repository": "https:\/\/github.com\/doublesecretagency\/craft-cpjs",
-        "downloads": 45028,
-        "favers": 42
-    },
-    {
-        "name": "doublesecretagency\/craft-cpcss",
-        "description": "Add custom CSS to your Control Panel.",
-        "url": "https:\/\/packagist.org\/packages\/doublesecretagency\/craft-cpcss",
-        "repository": "https:\/\/github.com\/doublesecretagency\/craft-cpcss",
-        "downloads": 151725,
-        "favers": 115
-    },
-    {
-        "name": "dolphiq\/sitemap",
-        "description": "Craft 3 plugin that provides an easy way to provide and manage a XML sitemap for search engines like Google and Bing",
-        "url": "https:\/\/packagist.org\/packages\/dolphiq\/sitemap",
-        "repository": "https:\/\/github.com\/Dolphiq\/craft3-plugin-sitemap",
-        "downloads": 72154,
-        "favers": 26
-    },
-    {
-        "name": "dolphiq\/redirect",
-        "description": "Craft redirect plugin provides an easy way to enter and maintain 301 and 302 redirects and 404 error pages.",
-        "url": "https:\/\/packagist.org\/packages\/dolphiq\/redirect",
-        "repository": "https:\/\/github.com\/Dolphiq\/craft3-plugin-redirect",
-        "downloads": 137890,
-        "favers": 50
-    },
-    {
-        "name": "dgrigg\/craft-migration-assistant",
-        "description": "Create migrations for settings and content at the click of a mouse. Keep environments in sync with ease.",
-        "url": "https:\/\/packagist.org\/packages\/dgrigg\/craft-migration-assistant",
-        "repository": "https:\/\/github.com\/dgrigg\/craft-migration-assistant",
-        "downloads": 30688,
-        "favers": 23
-    },
-    {
-        "name": "craftcms\/webhooks",
-        "description": "Post webhooks when events are triggered in Craft CMS.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/webhooks",
-        "repository": "https:\/\/github.com\/craftcms\/webhooks",
-        "downloads": 48114,
-        "favers": 77
-    },
-    {
-        "name": "craftcms\/store-hours",
-        "description": "This plugin adds a new \u201cStore Hours\u201d field type to Craft, for collecting the opening and closing hours of a business for each day of the week.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/store-hours",
-        "repository": "https:\/\/github.com\/craftcms\/store-hours",
-        "downloads": 42998,
-        "favers": 62
-    },
-    {
         "name": "craftcms\/redactor",
         "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
         "url": "https:\/\/packagist.org\/packages\/craftcms\/redactor",
         "repository": "https:\/\/github.com\/craftcms\/redactor",
-        "downloads": 1096014,
+        "downloads": 1096589,
         "favers": 82
-    },
-    {
-        "name": "craftcms\/postmark",
-        "description": "Postmark adapter for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/postmark",
-        "repository": "https:\/\/github.com\/craftcms\/postmark",
-        "downloads": 36078,
-        "favers": 19
-    },
-    {
-        "name": "craftcms\/mailgun",
-        "description": "Mailgun integration for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/mailgun",
-        "repository": "https:\/\/github.com\/craftcms\/mailgun",
-        "downloads": 128181,
-        "favers": 27
-    },
-    {
-        "name": "craftcms\/guest-entries",
-        "description": "This plugin allows you to save guest entries from the front-end of your website.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/guest-entries",
-        "repository": "https:\/\/github.com\/craftcms\/guest-entries",
-        "downloads": 44772,
-        "favers": 103
-    },
-    {
-        "name": "craftcms\/feed-me",
-        "description": "Import content from XML, RSS, CSV or JSON feeds into entries, categories, Craft Commerce products, and more.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/feed-me",
-        "repository": "https:\/\/github.com\/craftcms\/feed-me",
-        "downloads": 292942,
-        "favers": 273
-    },
-    {
-        "name": "craftcms\/element-api",
-        "description": "Create a JSON API for your elements in Craft",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/element-api",
-        "repository": "https:\/\/github.com\/craftcms\/element-api",
-        "downloads": 316413,
-        "favers": 497
-    },
-    {
-        "name": "craftcms\/contact-form-honeypot",
-        "description": "Add a honeypot captcha to your Craft CMS contact form",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/contact-form-honeypot",
-        "repository": "https:\/\/github.com\/craftcms\/contact-form-honeypot",
-        "downloads": 68337,
-        "favers": 22
-    },
-    {
-        "name": "craftcms\/contact-form",
-        "description": "Add a simple contact form to your Craft CMS site",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/contact-form",
-        "repository": "https:\/\/github.com\/craftcms\/contact-form",
-        "downloads": 224149,
-        "favers": 295
-    },
-    {
-        "name": "craftcms\/commerce-stripe",
-        "description": "Stripe integration for Craft Commerce 2 & 3",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/commerce-stripe",
-        "repository": "https:\/\/github.com\/craftcms\/commerce-stripe",
-        "downloads": 71162,
-        "favers": 20
-    },
-    {
-        "name": "craftcms\/commerce",
-        "description": "Craft Commerce",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/commerce",
-        "repository": "https:\/\/github.com\/craftcms\/commerce",
-        "downloads": 190629,
-        "favers": 168
-    },
-    {
-        "name": "craftcms\/ckeditor",
-        "description": "Edit rich text content in Craft CMS using CKEditor.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/ckeditor",
-        "repository": "https:\/\/github.com\/craftcms\/ckeditor",
-        "downloads": 38447,
-        "favers": 27
     },
     {
         "name": "craftcms\/aws-s3",
         "description": "Amazon S3 integration for Craft CMS",
         "url": "https:\/\/packagist.org\/packages\/craftcms\/aws-s3",
         "repository": "https:\/\/github.com\/craftcms\/aws-s3",
-        "downloads": 622729,
+        "downloads": 623012,
         "favers": 57
+    },
+    {
+        "name": "verbb\/super-table",
+        "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/super-table",
+        "repository": "https:\/\/github.com\/verbb\/super-table",
+        "downloads": 605625,
+        "favers": 311
+    },
+    {
+        "name": "nystudio107\/craft-seomatic",
+        "description": "SEOmatic facilitates modern SEO best practices & implementation for Craft CMS 3. It is a turnkey SEO system that is comprehensive, powerful, and flexible.",
+        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-seomatic",
+        "repository": "https:\/\/github.com\/nystudio107\/craft-seomatic",
+        "downloads": 531330,
+        "favers": 143
+    },
+    {
+        "name": "sebastianlenz\/linkfield",
+        "description": "A Craft field type for selecting links",
+        "url": "https:\/\/packagist.org\/packages\/sebastianlenz\/linkfield",
+        "repository": "https:\/\/github.com\/sebastian-lenz\/craft-linkfield",
+        "downloads": 324983,
+        "favers": 105
+    },
+    {
+        "name": "craftcms\/element-api",
+        "description": "Create a JSON API for your elements in Craft",
+        "url": "https:\/\/packagist.org\/packages\/craftcms\/element-api",
+        "repository": "https:\/\/github.com\/craftcms\/element-api",
+        "downloads": 316488,
+        "favers": 497
+    },
+    {
+        "name": "craftcms\/feed-me",
+        "description": "Import content from XML, RSS, CSV or JSON feeds into entries, categories, Craft Commerce products, and more.",
+        "url": "https:\/\/packagist.org\/packages\/craftcms\/feed-me",
+        "repository": "https:\/\/github.com\/craftcms\/feed-me",
+        "downloads": 293084,
+        "favers": 273
+    },
+    {
+        "name": "nystudio107\/craft-retour",
+        "description": "Retour allows you to intelligently redirect legacy URLs, so that you don't lose SEO value when rebuilding & restructuring a website",
+        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-retour",
+        "repository": "https:\/\/github.com\/nystudio107\/craft-retour",
+        "downloads": 280075,
+        "favers": 32
+    },
+    {
+        "name": "verbb\/field-manager",
+        "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/field-manager",
+        "repository": "https:\/\/github.com\/verbb\/field-manager",
+        "downloads": 240310,
+        "favers": 199
+    },
+    {
+        "name": "spicyweb\/craft-neo",
+        "description": "A Matrix-like field type that uses existing fields",
+        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-neo",
+        "repository": "https:\/\/github.com\/spicywebau\/craft-neo",
+        "downloads": 232763,
+        "favers": 392
+    },
+    {
+        "name": "solspace\/craft-freeform",
+        "description": "The most reliable, intuitive and powerful form builder for Craft.",
+        "url": "https:\/\/packagist.org\/packages\/solspace\/craft-freeform",
+        "repository": "https:\/\/github.com\/solspace\/craft3-freeform",
+        "downloads": 226176,
+        "favers": 32
+    },
+    {
+        "name": "craftcms\/contact-form",
+        "description": "Add a simple contact form to your Craft CMS site",
+        "url": "https:\/\/packagist.org\/packages\/craftcms\/contact-form",
+        "repository": "https:\/\/github.com\/craftcms\/contact-form",
+        "downloads": 224252,
+        "favers": 295
+    },
+    {
+        "name": "verbb\/navigation",
+        "description": "A Craft CMS plugin to create navigation menus for your site.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/navigation",
+        "repository": "https:\/\/github.com\/verbb\/navigation",
+        "downloads": 220716,
+        "favers": 82
     },
     {
         "name": "clubstudioltd\/craft-asset-rev",
         "description": "A plugin to aid cache-busting in Craft 3",
         "url": "https:\/\/packagist.org\/packages\/clubstudioltd\/craft-asset-rev",
         "repository": "https:\/\/github.com\/clubstudioltd\/craft-asset-rev",
-        "downloads": 217276,
+        "downloads": 217352,
         "favers": 110
-    },
-    {
-        "name": "carlcs\/craft-redactorcustomstyles",
-        "description": "Redactor Custom Styles plugin for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/carlcs\/craft-redactorcustomstyles",
-        "repository": "https:\/\/github.com\/carlcs\/craft-redactorcustomstyles",
-        "downloads": 70522,
-        "favers": 60
-    },
-    {
-        "name": "born05\/craft-twofactorauthentication",
-        "description": "Craft 3 plugin for two-factor or two-step login using Time Based OTP.",
-        "url": "https:\/\/packagist.org\/packages\/born05\/craft-twofactorauthentication",
-        "repository": "https:\/\/github.com\/born05\/craft-twofactorauthentication",
-        "downloads": 22323,
-        "favers": 32
-    },
-    {
-        "name": "born05\/craft-assetusage",
-        "description": "Adds a column to see which assets are used or unused.",
-        "url": "https:\/\/packagist.org\/packages\/born05\/craft-assetusage",
-        "repository": "https:\/\/github.com\/born05\/craft-assetusage",
-        "downloads": 38125,
-        "favers": 26
-    },
-    {
-        "name": "besteadfast\/craft-preparse-field",
-        "description": "A fieldtype that parses Twig when an element is saved and saves the result as plain text.",
-        "url": "https:\/\/packagist.org\/packages\/besteadfast\/craft-preparse-field",
-        "repository": "https:\/\/github.com\/besteadfast\/craft-preparse-field",
-        "downloads": 19218,
-        "favers": 104
-    },
-    {
-        "name": "angellco\/spoon",
-        "description": "A plugin for Craft to enhance your Matrix fields with groups, tabs and more!",
-        "url": "https:\/\/packagist.org\/packages\/angellco\/spoon",
-        "repository": "https:\/\/github.com\/angell-co\/Spoon",
-        "downloads": 61383,
-        "favers": 81
-    },
-    {
-        "name": "am-impact\/amcommand",
-        "description": "Command palette in Craft.",
-        "url": "https:\/\/packagist.org\/packages\/am-impact\/amcommand",
-        "repository": "https:\/\/github.com\/am-impact\/amcommand",
-        "downloads": 47646,
-        "favers": 86
-    },
-    {
-        "name": "aelvan\/mailchimp-subscribe",
-        "description": "Simple Craft plugin for subscribing to a MailChimp audience.",
-        "url": "https:\/\/packagist.org\/packages\/aelvan\/mailchimp-subscribe",
-        "repository": "https:\/\/github.com\/aelvan\/mailchimp-subscribe-craft",
-        "downloads": 85799,
-        "favers": 117
-    },
-    {
-        "name": "aelvan\/inlin",
-        "description": "A simple plugin for inlining stuff in your templates.",
-        "url": "https:\/\/packagist.org\/packages\/aelvan\/inlin",
-        "repository": "https:\/\/github.com\/aelvan\/Inlin-Craft",
-        "downloads": 68394,
-        "favers": 64
     },
     {
         "name": "aelvan\/imager",
         "description": "Image transforms gone wild",
         "url": "https:\/\/packagist.org\/packages\/aelvan\/imager",
         "repository": "https:\/\/github.com\/aelvan\/Imager-Craft",
-        "downloads": 216761,
+        "downloads": 216856,
         "favers": 352,
         "abandoned": "spacecatninja\/imager-x"
+    },
+    {
+        "name": "craftcms\/commerce",
+        "description": "Craft Commerce",
+        "url": "https:\/\/packagist.org\/packages\/craftcms\/commerce",
+        "repository": "https:\/\/github.com\/craftcms\/commerce",
+        "downloads": 190888,
+        "favers": 168
+    },
+    {
+        "name": "ether\/seo",
+        "description": "SEO utilities including a unique field type, sitemap, & redirect manager",
+        "url": "https:\/\/packagist.org\/packages\/ether\/seo",
+        "repository": "https:\/\/github.com\/ethercreative\/seo",
+        "downloads": 179126,
+        "favers": 222
+    },
+    {
+        "name": "verbb\/expanded-singles",
+        "description": "A simple plugin for Craft CMS that alters the Entries Index sidebar to list all Singles, rather than grouping them under a 'Singles' link.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/expanded-singles",
+        "repository": "https:\/\/github.com\/verbb\/expanded-singles",
+        "downloads": 164788,
+        "favers": 51
+    },
+    {
+        "name": "topshelfcraft\/wordsmith",
+        "description": "...because you have the best words.",
+        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/wordsmith",
+        "repository": "https:\/\/github.com\/TopShelfCraft\/Wordsmith",
+        "downloads": 152463,
+        "favers": 23
+    },
+    {
+        "name": "doublesecretagency\/craft-cpcss",
+        "description": "Add custom CSS to your Control Panel.",
+        "url": "https:\/\/packagist.org\/packages\/doublesecretagency\/craft-cpcss",
+        "repository": "https:\/\/github.com\/doublesecretagency\/craft-cpcss",
+        "downloads": 151841,
+        "favers": 115
+    },
+    {
+        "name": "nystudio107\/craft-typogrify",
+        "description": "Typogrify prettifies your web typography by preventing ugly quotes and 'widows' and more",
+        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-typogrify",
+        "repository": "https:\/\/github.com\/nystudio107\/craft-typogrify",
+        "downloads": 147483,
+        "favers": 69
+    },
+    {
+        "name": "nystudio107\/craft-imageoptimize",
+        "description": "Automatically create & optimize responsive image transforms, using either native Craft transforms or a service like imgix, with zero template changes.",
+        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-imageoptimize",
+        "repository": "https:\/\/github.com\/nystudio107\/craft-imageoptimize",
+        "downloads": 140037,
+        "favers": 232
+    },
+    {
+        "name": "ostark\/craft-async-queue",
+        "description": "A queue handler that moves queue execution to a non-blocking background process",
+        "url": "https:\/\/packagist.org\/packages\/ostark\/craft-async-queue",
+        "repository": "https:\/\/github.com\/ostark\/craft-async-queue",
+        "downloads": 138081,
+        "favers": 88
+    },
+    {
+        "name": "ether\/simplemap",
+        "description": "A beautifully simple Map field type for Craft CMS 3",
+        "url": "https:\/\/packagist.org\/packages\/ether\/simplemap",
+        "repository": "https:\/\/github.com\/ethercreative\/simplemap",
+        "downloads": 137507,
+        "favers": 136
+    },
+    {
+        "name": "spicyweb\/craft-embedded-assets",
+        "description": "Manage YouTube videos, Instagram photos, Twitter posts and more as first class assets",
+        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-embedded-assets",
+        "repository": "https:\/\/github.com\/spicywebau\/craft-embedded-assets",
+        "downloads": 129111,
+        "favers": 171
+    },
+    {
+        "name": "putyourlightson\/craft-blitz",
+        "description": "Intelligent static page caching for creating lightning-fast sites.",
+        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-blitz",
+        "repository": "https:\/\/github.com\/putyourlightson\/craft-blitz",
+        "downloads": 126511,
+        "favers": 122
+    },
+    {
+        "name": "nystudio107\/craft-twigpack",
+        "description": "Twigpack is a bridge between Twig and webpack, with manifest.json & webpack-dev-server HMR support",
+        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-twigpack",
+        "repository": "https:\/\/github.com\/nystudio107\/craft-twigpack",
+        "downloads": 123405,
+        "favers": 95
+    },
+    {
+        "name": "studioespresso\/craft-dumper",
+        "description": "Bringing larapack\/dd to Craft 3",
+        "url": "https:\/\/packagist.org\/packages\/studioespresso\/craft-dumper",
+        "repository": "https:\/\/github.com\/studioespresso\/craft3-dumper",
+        "downloads": 112569,
+        "favers": 21
+    },
+    {
+        "name": "verbb\/image-resizer",
+        "description": "Image Resizer is a Craft plugin that resizes your assets when they are uploaded.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/image-resizer",
+        "repository": "https:\/\/github.com\/verbb\/image-resizer",
+        "downloads": 100943,
+        "favers": 127
+    },
+    {
+        "name": "verbb\/cp-nav",
+        "description": "Control Panel Nav helps you managing your Control Panel navigation.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/cp-nav",
+        "repository": "https:\/\/github.com\/verbb\/cp-nav",
+        "downloads": 98157,
+        "favers": 130
+    },
+    {
+        "name": "topshelfcraft\/environment-label",
+        "description": "...so you don't forget where you are.",
+        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/environment-label",
+        "repository": "https:\/\/github.com\/TopShelfCraft\/Environment-Label",
+        "downloads": 95690,
+        "favers": 13
+    },
+    {
+        "name": "aelvan\/mailchimp-subscribe",
+        "description": "Simple Craft plugin for subscribing to a MailChimp audience.",
+        "url": "https:\/\/packagist.org\/packages\/aelvan\/mailchimp-subscribe",
+        "repository": "https:\/\/github.com\/aelvan\/mailchimp-subscribe-craft",
+        "downloads": 85819,
+        "favers": 117
+    },
+    {
+        "name": "supercool\/tablemaker",
+        "description": "A user-definable table field type for Craft CMS",
+        "url": "https:\/\/packagist.org\/packages\/supercool\/tablemaker",
+        "repository": "https:\/\/github.com\/supercool\/tablemaker",
+        "downloads": 84346,
+        "favers": 38
+    },
+    {
+        "name": "vaersaagod\/matrixmate",
+        "description": "Welding Matrix into shape, mate!",
+        "url": "https:\/\/packagist.org\/packages\/vaersaagod\/matrixmate",
+        "repository": "https:\/\/github.com\/vaersaagod\/matrixmate",
+        "downloads": 76920,
+        "favers": 35
+    },
+    {
+        "name": "spacecatninja\/imager-x",
+        "description": "Ninja powered image transforms.",
+        "url": "https:\/\/packagist.org\/packages\/spacecatninja\/imager-x",
+        "repository": "https:\/\/github.com\/spacecatninja\/craft-imager-x",
+        "downloads": 72275,
+        "favers": 16
+    },
+    {
+        "name": "wrav\/oembed",
+        "description": "A simple plugin to extract media information from websites, like youtube videos, twitter statuses or blog articles.",
+        "url": "https:\/\/packagist.org\/packages\/wrav\/oembed",
+        "repository": "https:\/\/github.com\/wrav\/oembed",
+        "downloads": 54206,
+        "favers": 30
+    },
+    {
+        "name": "verbb\/cloner",
+        "description": "Easily clone sections, entry types, category\/tag\/user groups, volumes, asset transforms and more.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/cloner",
+        "repository": "https:\/\/github.com\/verbb\/cloner",
+        "downloads": 48266,
+        "favers": 20
+    },
+    {
+        "name": "verbb\/workflow",
+        "description": "A Craft CMS plugin to create a workflow for publishing entries.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/workflow",
+        "repository": "https:\/\/github.com\/verbb\/workflow",
+        "downloads": 47682,
+        "favers": 134
+    },
+    {
+        "name": "verbb\/smith",
+        "description": "Add copy, paste and clone functionality to Matrix blocks.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/smith",
+        "repository": "https:\/\/github.com\/verbb\/smith",
+        "downloads": 37609,
+        "favers": 22
+    },
+    {
+        "name": "putyourlightson\/craft-sprig",
+        "description": "A reactive Twig component framework for Craft.",
+        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-sprig",
+        "repository": "https:\/\/github.com\/putyourlightson\/craft-sprig",
+        "downloads": 35334,
+        "favers": 92
+    },
+    {
+        "name": "verbb\/formie",
+        "description": "The most user-friendly forms plugin for Craft.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/formie",
+        "repository": "https:\/\/github.com\/verbb\/formie",
+        "downloads": 34835,
+        "favers": 51
+    },
+    {
+        "name": "supercool\/buttonbox",
+        "description": "A collection of utility field types for Craft",
+        "url": "https:\/\/packagist.org\/packages\/supercool\/buttonbox",
+        "repository": "https:\/\/github.com\/supercool\/buttonbox",
+        "downloads": 30823,
+        "favers": 91
+    },
+    {
+        "name": "topshelfcraft\/supersort",
+        "description": "...a super-duper sorting function for your Craft templates.",
+        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/supersort",
+        "repository": "https:\/\/github.com\/TopShelfCraft\/SuperSort",
+        "downloads": 29639,
+        "favers": 40
+    },
+    {
+        "name": "vaersaagod\/dospaces",
+        "description": "DigitalOcean Spaces integration for Craft CMS",
+        "url": "https:\/\/packagist.org\/packages\/vaersaagod\/dospaces",
+        "repository": "https:\/\/github.com\/vaersaagod\/dospaces",
+        "downloads": 27517,
+        "favers": 32
+    },
+    {
+        "name": "spicyweb\/craft-fieldlabels",
+        "description": "Override Craft CMS field labels and instructions in the field layout designer",
+        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-fieldlabels",
+        "repository": "https:\/\/github.com\/spicywebau\/craft-fieldlabels",
+        "downloads": 27511,
+        "favers": 128
+    },
+    {
+        "name": "verbb\/comments",
+        "description": "A Craft CMS plugin for managing comments directly within the CMS.",
+        "url": "https:\/\/packagist.org\/packages\/verbb\/comments",
+        "repository": "https:\/\/github.com\/verbb\/comments",
+        "downloads": 26998,
+        "favers": 129
+    },
+    {
+        "name": "xpertbot\/craft-wheelform",
+        "description": "Craft CMS 3 Form administrator with Database integration",
+        "url": "https:\/\/packagist.org\/packages\/xpertbot\/craft-wheelform",
+        "repository": "https:\/\/github.com\/xpertbot\/craft-wheelform",
+        "downloads": 21682,
+        "favers": 65
+    },
+    {
+        "name": "putyourlightson\/craft-elements-panel",
+        "description": "Adds an Elements and an Eager-Loading panel to the debug toolbar.",
+        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-elements-panel",
+        "repository": "https:\/\/github.com\/putyourlightson\/craft-elements-panel",
+        "downloads": 20274,
+        "favers": 25
+    },
+    {
+        "name": "wbrowar\/guide",
+        "description": "A CMS Guide for Craft CMS.",
+        "url": "https:\/\/packagist.org\/packages\/wbrowar\/guide",
+        "repository": "https:\/\/github.com\/wbrowar\/craft-guide",
+        "downloads": 16521,
+        "favers": 62
+    },
+    {
+        "name": "studioespresso\/craft-scout",
+        "description": "Craft Scout provides a simple solution for adding full-text search to your entries. Scout will automatically keep your search indexes in sync with your entries.",
+        "url": "https:\/\/packagist.org\/packages\/studioespresso\/craft-scout",
+        "repository": "https:\/\/github.com\/studioespresso\/craft-scout",
+        "downloads": 3269,
+        "favers": 72
     }
 ]

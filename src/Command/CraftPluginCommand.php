@@ -56,13 +56,14 @@ class CraftPluginCommand extends Command
     {
         $result = $this->callPackagistApi($input);
 
-        $packages = $this->sortByName($input, $result);
-
         $orderBy = $input->getOption('orderBy');
 
-        if ($orderBy) {
-            $packages = $this->sortByCategory($packages, $orderBy);
+        if (!in_array(strtolower($orderBy), $this->orderByOptions)) {
+            throw new \Exception($orderBy . ' is not supported as order');
         }
+
+
+        $packages = $this->sortTheResult($input, $result, $orderBy);
 
         $this->createOutput($input, $output, $packages);
 
@@ -70,30 +71,7 @@ class CraftPluginCommand extends Command
         return Command::SUCCESS;
     }
 
-    protected function sortByCategory(array $result, string $orderBy): array
-    {
 
-        if (!in_array(strtolower($orderBy), $this->orderByOptions)) {
-            throw new \Exception($orderBy . ' is not supported as order');
-        }
-
-        $keys = array_column($result, $orderBy);
-        array_multisort($keys, SORT_DESC, $result);
-        return $result;
-    }
-
-    protected function sortByName(InputInterface $input, array $result): array
-    {
-        // sort by name , asc or desc
-        $sort = SORT_DESC;
-        if (strtolower($input->getOption('order')) === 'asc') {
-            $sort = SORT_ASC;
-        }
-        $packages = $result['results'];
-        $keys = array_column($packages, 'name');
-        array_multisort($keys, $sort, $packages);
-        return $packages;
-    }
 
     protected function createOutput(InputInterface $input, OutputInterface $output, array $packages)
     {
