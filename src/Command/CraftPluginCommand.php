@@ -3,12 +3,14 @@
 namespace App\Command;
 
 use App\Traits\Sortable;
+use App\Entity\CraftPluginPackage;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 use GuzzleHttp\Client;
 use Symfony\Component\Console\Helper\Table;
+use GuzzleHttp\Promise;
 
 class CraftPluginCommand extends Command
 {
@@ -54,7 +56,12 @@ class CraftPluginCommand extends Command
 
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
-        $result = $this->callPackagistApi($input);
+        $result = $this->callApiToGetAllPackageNames($input);
+
+        $packageNames = array_column($result, 'name');
+
+        $packages = $this->callApiToGetEachPackage($packageNames);
+
 
         $orderBy = $input->getOption('orderBy');
 
@@ -70,7 +77,6 @@ class CraftPluginCommand extends Command
 
         return Command::SUCCESS;
     }
-
 
 
     protected function createOutput(InputInterface $input, OutputInterface $output, array $packages)
@@ -100,7 +106,7 @@ class CraftPluginCommand extends Command
         }
     }
 
-    protected function callPackagistApi(InputInterface $input)
+    protected function callApiToGetAllPackageNames(InputInterface $input)
     {
         $response = $this->client->request('GET', 'search.json', [
             'query' => [
@@ -109,7 +115,39 @@ class CraftPluginCommand extends Command
                 'per_page' => $input->getOption('limit')
             ],
         ]);
-        return json_decode($response->getBody()->getContents(), true);
+        return json_decode($response->getBody()->getContents(), true)['results'];
+    }
+
+    protected function callApiToGetEachPackage(array $names)
+    {
+        // generate request for all packages
+        $requests = [];
+        foreach ($names as $name) {
+            $packageUri = 'packages/' . $name . '.json';
+            $requests[$name] = $this->client->getAsync($packageUri);
+        }
+
+        $responses = Promise\Utils::settle($requests)->wait();
+        $packages = [];
+        foreach ($responses as $response) {
+
+            $result = $response['value'];
+            $data = json_decode($result->getBody()->getContents(), true)['package'];
+
+            $package = new CraftPluginPackage();
+            $package->name = $data['name'];
+            $package->description = $data['description'];
+            $package->updated = new \DateTime($data['time']);
+            $package->repository = $data['repository'];
+            $package->version = $data['repository'];
+            $package->downloads = $data['downloads']['total'];
+            $package->dependents = $data['dependents'];
+            $package->favers = $data['favers'];
+
+            array_push($packages, $package);
+
+        }
+        return $packages;
     }
 
 }
