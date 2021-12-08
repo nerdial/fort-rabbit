@@ -45,7 +45,7 @@ class CraftPluginCommand extends Command
             $this->orderBy);
 
         $this->addOption('order', 'o', InputArgument::OPTIONAL,
-            'Order by name desc or asc , default : desc', $this->order);
+            'Order type :  desc or asc , default : desc', $this->order);
 
         $this->addOption('output', 'op', InputArgument::OPTIONAL,
             'Limit the number of results', null);
