@@ -2,402 +2,741 @@
     {
         "name": "craftcms\/redactor",
         "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/redactor",
+        "updated": "2017-10-25T18:12:28+00:00",
+        "handle": "redactor",
         "repository": "https:\/\/github.com\/craftcms\/redactor",
-        "downloads": 1096589,
+        "version": {
+            "name": "craftcms\/redactor",
+            "description": "Edit rich text content in Craft CMS using Redactor by Imperavi.",
+            "keywords": [
+                "cms",
+                "html",
+                "Redactor",
+                "yii2",
+                "craftcms"
+            ],
+            "homepage": "",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https:\/\/pixelandtonic.com\/"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/craftcms\/redactor.git",
+                "reference": "284f205db30517471339313ba0542b5d19e34a1c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/craftcms\/redactor\/zipball\/284f205db30517471339313ba0542b5d19e34a1c",
+                "reference": "284f205db30517471339313ba0542b5d19e34a1c",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https:\/\/github.com\/craftcms\/redactor\/issues?state=open",
+                "source": "https:\/\/github.com\/craftcms\/redactor",
+                "docs": "https:\/\/github.com\/craftcms\/redactor\/blob\/v2\/README.md",
+                "rss": "https:\/\/github.com\/craftcms\/redactor\/commits\/v2.atom"
+            },
+            "time": "2021-11-10T13:01:03+00:00",
+            "autoload": {
+                "psr-4": {
+                    "craft\\redactor\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Redactor",
+                "handle": "redactor",
+                "documentationUrl": "https:\/\/github.com\/craftcms\/redactor\/blob\/v2\/README.md"
+            },
+            "default-branch": true,
+            "require": {
+                "craftcms\/cms": "^3.5.0"
+            },
+            "require-dev": {
+                "phpstan\/phpstan": "^0.12.96"
+            }
+        },
+        "downloads": 40178,
+        "dependents": 62,
         "favers": 82
-    },
-    {
-        "name": "craftcms\/aws-s3",
-        "description": "Amazon S3 integration for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/aws-s3",
-        "repository": "https:\/\/github.com\/craftcms\/aws-s3",
-        "downloads": 623012,
-        "favers": 57
     },
     {
         "name": "verbb\/super-table",
         "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/super-table",
+        "updated": "2018-02-10T12:51:12+00:00",
+        "handle": "super-table",
         "repository": "https:\/\/github.com\/verbb\/super-table",
-        "downloads": 605625,
+        "version": {
+            "name": "verbb\/super-table",
+            "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+            "keywords": [
+                "cms",
+                "Craft",
+                "craftcms",
+                "craft-plugin",
+                "super table"
+            ],
+            "homepage": "",
+            "version": "dev-craft-3",
+            "version_normalized": "dev-craft-3",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https:\/\/verbb.io"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/verbb\/super-table.git",
+                "reference": "3cad85c8a3d7dfbd7e00f4f40954a7098eb0ed27"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/verbb\/super-table\/zipball\/3cad85c8a3d7dfbd7e00f4f40954a7098eb0ed27",
+                "reference": "3cad85c8a3d7dfbd7e00f4f40954a7098eb0ed27",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https:\/\/github.com\/verbb\/super-table\/issues?state=open",
+                "source": "https:\/\/github.com\/verbb\/super-table",
+                "docs": "https:\/\/github.com\/verbb\/super-table",
+                "rss": "https:\/\/github.com\/verbb\/super-table\/commits\/v2.atom"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/verbb",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-03T23:08:08+00:00",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\supertable\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Super Table",
+                "handle": "super-table",
+                "description": "Super-charge your Craft workflow with Super Table. Use it to group fields together or build complex Matrix-in-Matrix solutions.",
+                "documentationUrl": "https:\/\/github.com\/verbb\/super-table",
+                "changelogUrl": "https:\/\/raw.githubusercontent.com\/verbb\/super-table\/craft-3\/CHANGELOG.md",
+                "class": "verbb\\supertable\\SuperTable"
+            },
+            "default-branch": true,
+            "require": {
+                "verbb\/base": "^1.0.2",
+                "craftcms\/cms": "^3.7.0"
+            }
+        },
+        "downloads": 23996,
+        "dependents": 24,
         "favers": 311
-    },
-    {
-        "name": "nystudio107\/craft-seomatic",
-        "description": "SEOmatic facilitates modern SEO best practices & implementation for Craft CMS 3. It is a turnkey SEO system that is comprehensive, powerful, and flexible.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-seomatic",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-seomatic",
-        "downloads": 531330,
-        "favers": 143
-    },
-    {
-        "name": "sebastianlenz\/linkfield",
-        "description": "A Craft field type for selecting links",
-        "url": "https:\/\/packagist.org\/packages\/sebastianlenz\/linkfield",
-        "repository": "https:\/\/github.com\/sebastian-lenz\/craft-linkfield",
-        "downloads": 324983,
-        "favers": 105
-    },
-    {
-        "name": "craftcms\/element-api",
-        "description": "Create a JSON API for your elements in Craft",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/element-api",
-        "repository": "https:\/\/github.com\/craftcms\/element-api",
-        "downloads": 316488,
-        "favers": 497
     },
     {
         "name": "craftcms\/feed-me",
         "description": "Import content from XML, RSS, CSV or JSON feeds into entries, categories, Craft Commerce products, and more.",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/feed-me",
+        "updated": "2019-04-09T17:19:14+00:00",
+        "handle": "feed-me",
         "repository": "https:\/\/github.com\/craftcms\/feed-me",
-        "downloads": 293084,
-        "favers": 273
-    },
-    {
-        "name": "nystudio107\/craft-retour",
-        "description": "Retour allows you to intelligently redirect legacy URLs, so that you don't lose SEO value when rebuilding & restructuring a website",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-retour",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-retour",
-        "downloads": 280075,
-        "favers": 32
-    },
-    {
-        "name": "verbb\/field-manager",
-        "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/field-manager",
-        "repository": "https:\/\/github.com\/verbb\/field-manager",
-        "downloads": 240310,
-        "favers": 199
-    },
-    {
-        "name": "spicyweb\/craft-neo",
-        "description": "A Matrix-like field type that uses existing fields",
-        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-neo",
-        "repository": "https:\/\/github.com\/spicywebau\/craft-neo",
-        "downloads": 232763,
-        "favers": 392
-    },
-    {
-        "name": "solspace\/craft-freeform",
-        "description": "The most reliable, intuitive and powerful form builder for Craft.",
-        "url": "https:\/\/packagist.org\/packages\/solspace\/craft-freeform",
-        "repository": "https:\/\/github.com\/solspace\/craft3-freeform",
-        "downloads": 226176,
-        "favers": 32
-    },
-    {
-        "name": "craftcms\/contact-form",
-        "description": "Add a simple contact form to your Craft CMS site",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/contact-form",
-        "repository": "https:\/\/github.com\/craftcms\/contact-form",
-        "downloads": 224252,
-        "favers": 295
+        "version": {
+            "name": "craftcms\/feed-me",
+            "description": "Import content from XML, RSS, CSV or JSON feeds into entries, categories, Craft Commerce products, and more.",
+            "keywords": [
+                "cms",
+                "Craft",
+                "craftcms",
+                "feed me"
+            ],
+            "homepage": "",
+            "version": "dev-develop",
+            "version_normalized": "dev-develop",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https:\/\/pixelandtonic.com\/"
+                },
+                {
+                    "name": "Verbb",
+                    "homepage": "https:\/\/verbb.io"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/craftcms\/feed-me.git",
+                "reference": "0b88e2f7b896dfb39833bc987282b454b69a320c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/craftcms\/feed-me\/zipball\/0b88e2f7b896dfb39833bc987282b454b69a320c",
+                "reference": "0b88e2f7b896dfb39833bc987282b454b69a320c",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https:\/\/github.com\/craftcms\/feed-me\/issues?state=open",
+                "source": "https:\/\/github.com\/craftcms\/feed-me",
+                "docs": "https:\/\/docs.craftcms.com\/feed-me\/v4\/",
+                "rss": "https:\/\/github.com\/craftcms\/feed-me\/commits\/master.atom"
+            },
+            "time": "2021-12-07T04:18:30+00:00",
+            "autoload": {
+                "psr-4": {
+                    "craft\\feedme\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Feed Me",
+                "handle": "feed-me",
+                "documentationUrl": "https:\/\/docs.craftcms.com\/feed-me\/v4\/"
+            },
+            "default-branch": true,
+            "require": {
+                "cakephp\/utility": "^3.3.12",
+                "jakeasmith\/http_build_url": "^1.0",
+                "nesbot\/carbon": "^1.22 || ^2.10",
+                "league\/csv": "^8.2 || ^9.0",
+                "seld\/jsonlint": "^1.7",
+                "craftcms\/cms": "^3.7.0"
+            },
+            "require-dev": {
+                "codeception\/codeception": "^4.0.0",
+                "codeception\/module-asserts": "^1.3"
+            }
+        },
+        "downloads": 14428,
+        "dependents": 10,
+        "favers": 275
     },
     {
         "name": "verbb\/navigation",
         "description": "A Craft CMS plugin to create navigation menus for your site.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/navigation",
+        "updated": "2018-07-12T15:37:32+00:00",
+        "handle": "navigation",
         "repository": "https:\/\/github.com\/verbb\/navigation",
-        "downloads": 220716,
+        "version": {
+            "name": "verbb\/navigation",
+            "description": "A Craft CMS plugin to create navigation menus for your site.",
+            "keywords": [
+                "menu",
+                "cms",
+                "navigation",
+                "Craft",
+                "craftcms",
+                "craft-plugin"
+            ],
+            "homepage": "",
+            "version": "dev-craft-3",
+            "version_normalized": "dev-craft-3",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https:\/\/verbb.io"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/verbb\/navigation.git",
+                "reference": "1d89ca97fd8cfe65e3a78befc3f208df86ec8b6e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/verbb\/navigation\/zipball\/1d89ca97fd8cfe65e3a78befc3f208df86ec8b6e",
+                "reference": "1d89ca97fd8cfe65e3a78befc3f208df86ec8b6e",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https:\/\/github.com\/verbb\/navigation\/issues?state=open",
+                "source": "https:\/\/github.com\/verbb\/navigation",
+                "docs": "https:\/\/github.com\/verbb\/navigation",
+                "rss": "https:\/\/github.com\/verbb\/navigation\/commits\/v2.atom"
+            },
+            "time": "2021-11-24T11:10:48+00:00",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\navigation\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Navigation",
+                "handle": "navigation",
+                "changelogUrl": "https:\/\/raw.githubusercontent.com\/verbb\/navigation\/craft-3\/CHANGELOG.md",
+                "class": "verbb\\navigation\\Navigation"
+            },
+            "default-branch": true,
+            "require": {
+                "verbb\/base": "^1.0.2",
+                "craftcms\/cms": "^3.6.0"
+            }
+        },
+        "downloads": 10789,
+        "dependents": 7,
         "favers": 82
     },
     {
-        "name": "clubstudioltd\/craft-asset-rev",
-        "description": "A plugin to aid cache-busting in Craft 3",
-        "url": "https:\/\/packagist.org\/packages\/clubstudioltd\/craft-asset-rev",
-        "repository": "https:\/\/github.com\/clubstudioltd\/craft-asset-rev",
-        "downloads": 217352,
-        "favers": 110
+        "name": "spicyweb\/craft-neo",
+        "description": "A Matrix-like field type that uses existing fields",
+        "updated": "2018-10-30T11:10:02+00:00",
+        "handle": "neo",
+        "repository": "https:\/\/github.com\/spicywebau\/craft-neo",
+        "version": {
+            "name": "spicyweb\/craft-neo",
+            "description": "A Matrix-like field type that uses existing fields",
+            "keywords": [
+                "plugin",
+                "cms",
+                "Neo",
+                "field",
+                "matrix",
+                "craftcms"
+            ],
+            "homepage": "",
+            "version": "2.x-dev",
+            "version_normalized": "2.9999999.9999999.9999999-dev",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Spicy Web",
+                    "homepage": "https:\/\/github.com\/spicywebau"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/spicywebau\/craft-neo.git",
+                "reference": "1f4b382fccd7d787a9b9eba6dd59a6441d8e3bc4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/spicywebau\/craft-neo\/zipball\/1f4b382fccd7d787a9b9eba6dd59a6441d8e3bc4",
+                "reference": "1f4b382fccd7d787a9b9eba6dd59a6441d8e3bc4",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "issues": "https:\/\/github.com\/spicywebau\/craft-neo\/issues",
+                "source": "https:\/\/github.com\/spicywebau\/craft-neo",
+                "docs": "https:\/\/github.com\/spicywebau\/craft-neo\/blob\/2.11.21\/README.md",
+                "rss": "https:\/\/github.com\/spicywebau\/craft-neo\/commits\/master.atom"
+            },
+            "time": "2021-12-06T04:09:41+00:00",
+            "autoload": {
+                "psr-4": {
+                    "benf\\neo\\": "src\/"
+                }
+            },
+            "extra": {
+                "handle": "neo",
+                "name": "Neo",
+                "schemaVersion": "2.11.6",
+                "class": "benf\\neo\\Plugin",
+                "changelogUrl": "https:\/\/github.com\/spicywebau\/craft-neo\/blob\/master\/CHANGELOG.md",
+                "downloadUrl": "https:\/\/github.com\/spicywebau\/craft-neo\/archive\/master.zip"
+            },
+            "require": {
+                "craftcms\/cms": "^3.7.12"
+            }
+        },
+        "downloads": 10109,
+        "dependents": 7,
+        "favers": 392
     },
     {
-        "name": "aelvan\/imager",
-        "description": "Image transforms gone wild",
-        "url": "https:\/\/packagist.org\/packages\/aelvan\/imager",
-        "repository": "https:\/\/github.com\/aelvan\/Imager-Craft",
-        "downloads": 216856,
-        "favers": 352,
-        "abandoned": "spacecatninja\/imager-x"
+        "name": "verbb\/field-manager",
+        "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
+        "updated": "2018-02-10T12:51:02+00:00",
+        "handle": "field-manager",
+        "repository": "https:\/\/github.com\/verbb\/field-manager",
+        "version": {
+            "name": "verbb\/field-manager",
+            "description": "Manage your fields and field groups with ease with simple field or group cloning and quicker overall management.",
+            "keywords": [
+                "cms",
+                "Craft",
+                "craftcms",
+                "craft-plugin",
+                "field manager"
+            ],
+            "homepage": "",
+            "version": "dev-craft-3",
+            "version_normalized": "dev-craft-3",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https:\/\/verbb.io"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/verbb\/field-manager.git",
+                "reference": "9ad67e407ae48d6532cf22aed7f18c2536ee34d5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/verbb\/field-manager\/zipball\/9ad67e407ae48d6532cf22aed7f18c2536ee34d5",
+                "reference": "9ad67e407ae48d6532cf22aed7f18c2536ee34d5",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https:\/\/github.com\/verbb\/field-manager\/issues?state=open",
+                "source": "https:\/\/github.com\/verbb\/field-manager",
+                "docs": "https:\/\/github.com\/verbb\/field-manager",
+                "rss": "https:\/\/github.com\/verbb\/field-manager\/commits\/v2.atom"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/verbb",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-08-04T01:25:25+00:00",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\fieldmanager\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Field Manager",
+                "handle": "field-manager",
+                "changelogUrl": "https:\/\/raw.githubusercontent.com\/verbb\/field-manager\/craft-3\/CHANGELOG.md",
+                "class": "verbb\\fieldmanager\\FieldManager"
+            },
+            "default-branch": true,
+            "require": {
+                "verbb\/base": "^1.0.2",
+                "craftcms\/cms": "^3.5.0"
+            }
+        },
+        "downloads": 8984,
+        "dependents": 11,
+        "favers": 199
     },
     {
-        "name": "craftcms\/commerce",
-        "description": "Craft Commerce",
-        "url": "https:\/\/packagist.org\/packages\/craftcms\/commerce",
-        "repository": "https:\/\/github.com\/craftcms\/commerce",
-        "downloads": 190888,
-        "favers": 168
-    },
-    {
-        "name": "ether\/seo",
-        "description": "SEO utilities including a unique field type, sitemap, & redirect manager",
-        "url": "https:\/\/packagist.org\/packages\/ether\/seo",
-        "repository": "https:\/\/github.com\/ethercreative\/seo",
-        "downloads": 179126,
-        "favers": 222
-    },
-    {
-        "name": "verbb\/expanded-singles",
-        "description": "A simple plugin for Craft CMS that alters the Entries Index sidebar to list all Singles, rather than grouping them under a 'Singles' link.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/expanded-singles",
-        "repository": "https:\/\/github.com\/verbb\/expanded-singles",
-        "downloads": 164788,
-        "favers": 51
-    },
-    {
-        "name": "topshelfcraft\/wordsmith",
-        "description": "...because you have the best words.",
-        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/wordsmith",
-        "repository": "https:\/\/github.com\/TopShelfCraft\/Wordsmith",
-        "downloads": 152463,
-        "favers": 23
-    },
-    {
-        "name": "doublesecretagency\/craft-cpcss",
-        "description": "Add custom CSS to your Control Panel.",
-        "url": "https:\/\/packagist.org\/packages\/doublesecretagency\/craft-cpcss",
-        "repository": "https:\/\/github.com\/doublesecretagency\/craft-cpcss",
-        "downloads": 151841,
-        "favers": 115
-    },
-    {
-        "name": "nystudio107\/craft-typogrify",
-        "description": "Typogrify prettifies your web typography by preventing ugly quotes and 'widows' and more",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-typogrify",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-typogrify",
-        "downloads": 147483,
-        "favers": 69
-    },
-    {
-        "name": "nystudio107\/craft-imageoptimize",
-        "description": "Automatically create & optimize responsive image transforms, using either native Craft transforms or a service like imgix, with zero template changes.",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-imageoptimize",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-imageoptimize",
-        "downloads": 140037,
-        "favers": 232
-    },
-    {
-        "name": "ostark\/craft-async-queue",
-        "description": "A queue handler that moves queue execution to a non-blocking background process",
-        "url": "https:\/\/packagist.org\/packages\/ostark\/craft-async-queue",
-        "repository": "https:\/\/github.com\/ostark\/craft-async-queue",
-        "downloads": 138081,
-        "favers": 88
-    },
-    {
-        "name": "ether\/simplemap",
-        "description": "A beautifully simple Map field type for Craft CMS 3",
-        "url": "https:\/\/packagist.org\/packages\/ether\/simplemap",
-        "repository": "https:\/\/github.com\/ethercreative\/simplemap",
-        "downloads": 137507,
-        "favers": 136
+        "name": "craftcms\/element-api",
+        "description": "Create a JSON API for your elements in Craft",
+        "updated": "2017-02-10T18:55:19+00:00",
+        "handle": "element-api",
+        "repository": "https:\/\/github.com\/craftcms\/element-api",
+        "version": {
+            "name": "craftcms\/element-api",
+            "description": "Create a JSON API for your elements in Craft",
+            "keywords": [
+                "json",
+                "api",
+                "cms",
+                "yii2",
+                "craftcms"
+            ],
+            "homepage": "",
+            "version": "v2.x-dev",
+            "version_normalized": "2.9999999.9999999.9999999-dev",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pixel & Tonic",
+                    "homepage": "https:\/\/pixelandtonic.com\/"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/craftcms\/element-api.git",
+                "reference": "5dc1496fdc93e3ec2489923adc5f54c1c6e3d986"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/craftcms\/element-api\/zipball\/5dc1496fdc93e3ec2489923adc5f54c1c6e3d986",
+                "reference": "5dc1496fdc93e3ec2489923adc5f54c1c6e3d986",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@craftcms.com",
+                "issues": "https:\/\/github.com\/craftcms\/element-api\/issues?state=open",
+                "source": "https:\/\/github.com\/craftcms\/element-api",
+                "docs": "https:\/\/github.com\/craftcms\/element-api\/blob\/v2\/README.md",
+                "rss": "https:\/\/github.com\/craftcms\/element-api\/commits\/v2.atom"
+            },
+            "time": "2021-12-07T22:01:46+00:00",
+            "autoload": {
+                "psr-4": {
+                    "craft\\elementapi\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Element API",
+                "handle": "element-api",
+                "documentationUrl": "https:\/\/github.com\/craftcms\/element-api\/blob\/v2\/README.md"
+            },
+            "default-branch": true,
+            "require": {
+                "league\/fractal": "^0.18.0",
+                "craftcms\/cms": "^3.6.0"
+            },
+            "require-dev": {
+                "phpstan\/phpstan": "^0.12.96"
+            }
+        },
+        "downloads": 8909,
+        "dependents": 8,
+        "favers": 497
     },
     {
         "name": "spicyweb\/craft-embedded-assets",
         "description": "Manage YouTube videos, Instagram photos, Twitter posts and more as first class assets",
-        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-embedded-assets",
+        "updated": "2019-02-26T10:28:00+00:00",
+        "handle": "embeddedassets",
         "repository": "https:\/\/github.com\/spicywebau\/craft-embedded-assets",
-        "downloads": 129111,
+        "version": {
+            "name": "spicyweb\/craft-embedded-assets",
+            "description": "Manage YouTube videos, Instagram photos, Twitter posts and more as first class assets",
+            "keywords": [
+                "assets",
+                "plugin",
+                "cms",
+                "twitter",
+                "youtube",
+                "vimeo",
+                "instagram",
+                "embed",
+                "craftcms"
+            ],
+            "homepage": "",
+            "version": "dev-enhancement\/embed-4",
+            "version_normalized": "dev-enhancement\/embed-4",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Spicy Web",
+                    "homepage": "https:\/\/spicyweb.com.au"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/spicywebau\/craft-embedded-assets.git",
+                "reference": "292d0052d4a6564cb2bb5d554eb6503286d6ea40"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/spicywebau\/craft-embedded-assets\/zipball\/292d0052d4a6564cb2bb5d554eb6503286d6ea40",
+                "reference": "292d0052d4a6564cb2bb5d554eb6503286d6ea40",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "issues": "https:\/\/github.com\/spicywebau\/craft-embedded-assets\/issues",
+                "source": "https:\/\/github.com\/spicywebau\/craft-embedded-assets",
+                "docs": "https:\/\/github.com\/spicywebau\/craft-embedded-assets\/blob\/2.9.1\/README.md",
+                "rss": "https:\/\/github.com\/spicywebau\/craft-embedded-assets\/commits\/master.atom"
+            },
+            "time": "2021-12-02T10:58:07+00:00",
+            "autoload": {
+                "psr-4": {
+                    "spicyweb\\embeddedassets\\": "src\/"
+                }
+            },
+            "extra": {
+                "handle": "embeddedassets",
+                "name": "Embedded Assets",
+                "schemaVersion": "1.0.0",
+                "class": "spicyweb\\embeddedassets\\Plugin",
+                "changelogUrl": "https:\/\/github.com\/spicywebau\/craft-embedded-assets\/blob\/master\/CHANGELOG.md",
+                "downloadUrl": "https:\/\/github.com\/spicywebau\/craft-embedded-assets\/archive\/master.zip"
+            },
+            "require": {
+                "craftcms\/cms": "^3.6.0",
+                "php": "^7.4.0|^8.0.0",
+                "embed\/embed": "^4.3.5"
+            }
+        },
+        "downloads": 6123,
+        "dependents": 5,
         "favers": 171
-    },
-    {
-        "name": "putyourlightson\/craft-blitz",
-        "description": "Intelligent static page caching for creating lightning-fast sites.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-blitz",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-blitz",
-        "downloads": 126511,
-        "favers": 122
-    },
-    {
-        "name": "nystudio107\/craft-twigpack",
-        "description": "Twigpack is a bridge between Twig and webpack, with manifest.json & webpack-dev-server HMR support",
-        "url": "https:\/\/packagist.org\/packages\/nystudio107\/craft-twigpack",
-        "repository": "https:\/\/github.com\/nystudio107\/craft-twigpack",
-        "downloads": 123405,
-        "favers": 95
-    },
-    {
-        "name": "studioespresso\/craft-dumper",
-        "description": "Bringing larapack\/dd to Craft 3",
-        "url": "https:\/\/packagist.org\/packages\/studioespresso\/craft-dumper",
-        "repository": "https:\/\/github.com\/studioespresso\/craft3-dumper",
-        "downloads": 112569,
-        "favers": 21
     },
     {
         "name": "verbb\/image-resizer",
         "description": "Image Resizer is a Craft plugin that resizes your assets when they are uploaded.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/image-resizer",
+        "updated": "2018-02-10T12:51:10+00:00",
+        "handle": "image-resizer",
         "repository": "https:\/\/github.com\/verbb\/image-resizer",
-        "downloads": 100943,
+        "version": {
+            "name": "verbb\/image-resizer",
+            "description": "Image Resizer is a Craft plugin that resizes your assets when they are uploaded.",
+            "keywords": [
+                "cms",
+                "example",
+                "Craft",
+                "craftcms",
+                "craft-plugin"
+            ],
+            "homepage": "",
+            "version": "dev-craft-3",
+            "version_normalized": "dev-craft-3",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "https:\/\/verbb.io"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/verbb\/image-resizer.git",
+                "reference": "4f9d81b32f00262413d8885287db2ed352e7914a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/verbb\/image-resizer\/zipball\/4f9d81b32f00262413d8885287db2ed352e7914a",
+                "reference": "4f9d81b32f00262413d8885287db2ed352e7914a",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https:\/\/github.com\/verbb\/image-resizer\/issues?state=open",
+                "source": "https:\/\/github.com\/verbb\/image-resizer",
+                "docs": "https:\/\/github.com\/verbb\/image-resizer",
+                "rss": "https:\/\/github.com\/verbb\/image-resizer\/commits\/v2.atom"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/verbb",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-02-19T05:18:01+00:00",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\imageresizer\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Image Resizer",
+                "handle": "image-resizer",
+                "description": "Image Resizer resizes your assets when they are uploaded.",
+                "documentationUrl": "https:\/\/github.com\/verbb\/image-resizer",
+                "changelogUrl": "https:\/\/raw.githubusercontent.com\/verbb\/image-resizer\/craft-3\/CHANGELOG.md",
+                "class": "verbb\\imageresizer\\ImageResizer"
+            },
+            "default-branch": true,
+            "require": {
+                "lsolesen\/pel": "^0.9.6",
+                "verbb\/base": "^1.0.2",
+                "craftcms\/cms": "^3.6.0"
+            }
+        },
+        "downloads": 4210,
+        "dependents": 3,
         "favers": 127
     },
     {
         "name": "verbb\/cp-nav",
         "description": "Control Panel Nav helps you managing your Control Panel navigation.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/cp-nav",
+        "updated": "2017-10-17T21:11:57+00:00",
+        "handle": "cp-nav",
         "repository": "https:\/\/github.com\/verbb\/cp-nav",
-        "downloads": 98157,
+        "version": {
+            "name": "verbb\/cp-nav",
+            "description": "Control Panel Nav helps you managing your Control Panel navigation.",
+            "keywords": [
+                "cms",
+                "Craft",
+                "craftcms",
+                "craft-plugin",
+                "cp nav",
+                "control panel nav",
+                "control panel navigation"
+            ],
+            "homepage": "",
+            "version": "dev-craft-3",
+            "version_normalized": "dev-craft-3",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Verbb",
+                    "homepage": "http:\/\/verbb.io"
+                }
+            ],
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/verbb\/cp-nav.git",
+                "reference": "465754c8a22c65fa40032cc879ca2ea5a2b6e090"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/verbb\/cp-nav\/zipball\/465754c8a22c65fa40032cc879ca2ea5a2b6e090",
+                "reference": "465754c8a22c65fa40032cc879ca2ea5a2b6e090",
+                "shasum": ""
+            },
+            "type": "craft-plugin",
+            "support": {
+                "email": "support@verbb.io",
+                "issues": "https:\/\/github.com\/verbb\/cp-nav\/issues?state=open",
+                "source": "https:\/\/github.com\/verbb\/cp-nav",
+                "docs": "https:\/\/github.com\/verbb\/cp-nav",
+                "rss": "https:\/\/github.com\/verbb\/cp-nav\/commits\/v2.atom"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/github.com\/verbb",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-08-25T07:26:38+00:00",
+            "autoload": {
+                "psr-4": {
+                    "verbb\\cpnav\\": "src\/"
+                }
+            },
+            "extra": {
+                "name": "Control Panel Nav",
+                "handle": "cp-nav",
+                "changelogUrl": "https:\/\/raw.githubusercontent.com\/verbb\/cp-nav\/craft-3\/CHANGELOG.md",
+                "class": "verbb\\cpnav\\CpNav"
+            },
+            "default-branch": true,
+            "require": {
+                "verbb\/base": "^1.0.2",
+                "craftcms\/cms": "^3.4.0"
+            }
+        },
+        "downloads": 2830,
+        "dependents": 4,
         "favers": 130
-    },
-    {
-        "name": "topshelfcraft\/environment-label",
-        "description": "...so you don't forget where you are.",
-        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/environment-label",
-        "repository": "https:\/\/github.com\/TopShelfCraft\/Environment-Label",
-        "downloads": 95690,
-        "favers": 13
-    },
-    {
-        "name": "aelvan\/mailchimp-subscribe",
-        "description": "Simple Craft plugin for subscribing to a MailChimp audience.",
-        "url": "https:\/\/packagist.org\/packages\/aelvan\/mailchimp-subscribe",
-        "repository": "https:\/\/github.com\/aelvan\/mailchimp-subscribe-craft",
-        "downloads": 85819,
-        "favers": 117
-    },
-    {
-        "name": "supercool\/tablemaker",
-        "description": "A user-definable table field type for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/supercool\/tablemaker",
-        "repository": "https:\/\/github.com\/supercool\/tablemaker",
-        "downloads": 84346,
-        "favers": 38
-    },
-    {
-        "name": "vaersaagod\/matrixmate",
-        "description": "Welding Matrix into shape, mate!",
-        "url": "https:\/\/packagist.org\/packages\/vaersaagod\/matrixmate",
-        "repository": "https:\/\/github.com\/vaersaagod\/matrixmate",
-        "downloads": 76920,
-        "favers": 35
-    },
-    {
-        "name": "spacecatninja\/imager-x",
-        "description": "Ninja powered image transforms.",
-        "url": "https:\/\/packagist.org\/packages\/spacecatninja\/imager-x",
-        "repository": "https:\/\/github.com\/spacecatninja\/craft-imager-x",
-        "downloads": 72275,
-        "favers": 16
-    },
-    {
-        "name": "wrav\/oembed",
-        "description": "A simple plugin to extract media information from websites, like youtube videos, twitter statuses or blog articles.",
-        "url": "https:\/\/packagist.org\/packages\/wrav\/oembed",
-        "repository": "https:\/\/github.com\/wrav\/oembed",
-        "downloads": 54206,
-        "favers": 30
-    },
-    {
-        "name": "verbb\/cloner",
-        "description": "Easily clone sections, entry types, category\/tag\/user groups, volumes, asset transforms and more.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/cloner",
-        "repository": "https:\/\/github.com\/verbb\/cloner",
-        "downloads": 48266,
-        "favers": 20
-    },
-    {
-        "name": "verbb\/workflow",
-        "description": "A Craft CMS plugin to create a workflow for publishing entries.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/workflow",
-        "repository": "https:\/\/github.com\/verbb\/workflow",
-        "downloads": 47682,
-        "favers": 134
-    },
-    {
-        "name": "verbb\/smith",
-        "description": "Add copy, paste and clone functionality to Matrix blocks.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/smith",
-        "repository": "https:\/\/github.com\/verbb\/smith",
-        "downloads": 37609,
-        "favers": 22
-    },
-    {
-        "name": "putyourlightson\/craft-sprig",
-        "description": "A reactive Twig component framework for Craft.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-sprig",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-sprig",
-        "downloads": 35334,
-        "favers": 92
-    },
-    {
-        "name": "verbb\/formie",
-        "description": "The most user-friendly forms plugin for Craft.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/formie",
-        "repository": "https:\/\/github.com\/verbb\/formie",
-        "downloads": 34835,
-        "favers": 51
-    },
-    {
-        "name": "supercool\/buttonbox",
-        "description": "A collection of utility field types for Craft",
-        "url": "https:\/\/packagist.org\/packages\/supercool\/buttonbox",
-        "repository": "https:\/\/github.com\/supercool\/buttonbox",
-        "downloads": 30823,
-        "favers": 91
-    },
-    {
-        "name": "topshelfcraft\/supersort",
-        "description": "...a super-duper sorting function for your Craft templates.",
-        "url": "https:\/\/packagist.org\/packages\/topshelfcraft\/supersort",
-        "repository": "https:\/\/github.com\/TopShelfCraft\/SuperSort",
-        "downloads": 29639,
-        "favers": 40
-    },
-    {
-        "name": "vaersaagod\/dospaces",
-        "description": "DigitalOcean Spaces integration for Craft CMS",
-        "url": "https:\/\/packagist.org\/packages\/vaersaagod\/dospaces",
-        "repository": "https:\/\/github.com\/vaersaagod\/dospaces",
-        "downloads": 27517,
-        "favers": 32
-    },
-    {
-        "name": "spicyweb\/craft-fieldlabels",
-        "description": "Override Craft CMS field labels and instructions in the field layout designer",
-        "url": "https:\/\/packagist.org\/packages\/spicyweb\/craft-fieldlabels",
-        "repository": "https:\/\/github.com\/spicywebau\/craft-fieldlabels",
-        "downloads": 27511,
-        "favers": 128
-    },
-    {
-        "name": "verbb\/comments",
-        "description": "A Craft CMS plugin for managing comments directly within the CMS.",
-        "url": "https:\/\/packagist.org\/packages\/verbb\/comments",
-        "repository": "https:\/\/github.com\/verbb\/comments",
-        "downloads": 26998,
-        "favers": 129
-    },
-    {
-        "name": "xpertbot\/craft-wheelform",
-        "description": "Craft CMS 3 Form administrator with Database integration",
-        "url": "https:\/\/packagist.org\/packages\/xpertbot\/craft-wheelform",
-        "repository": "https:\/\/github.com\/xpertbot\/craft-wheelform",
-        "downloads": 21682,
-        "favers": 65
-    },
-    {
-        "name": "putyourlightson\/craft-elements-panel",
-        "description": "Adds an Elements and an Eager-Loading panel to the debug toolbar.",
-        "url": "https:\/\/packagist.org\/packages\/putyourlightson\/craft-elements-panel",
-        "repository": "https:\/\/github.com\/putyourlightson\/craft-elements-panel",
-        "downloads": 20274,
-        "favers": 25
-    },
-    {
-        "name": "wbrowar\/guide",
-        "description": "A CMS Guide for Craft CMS.",
-        "url": "https:\/\/packagist.org\/packages\/wbrowar\/guide",
-        "repository": "https:\/\/github.com\/wbrowar\/craft-guide",
-        "downloads": 16521,
-        "favers": 62
-    },
-    {
-        "name": "studioespresso\/craft-scout",
-        "description": "Craft Scout provides a simple solution for adding full-text search to your entries. Scout will automatically keep your search indexes in sync with your entries.",
-        "url": "https:\/\/packagist.org\/packages\/studioespresso\/craft-scout",
-        "repository": "https:\/\/github.com\/studioespresso\/craft-scout",
-        "downloads": 3269,
-        "favers": 72
     }
 ]
