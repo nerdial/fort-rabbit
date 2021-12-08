@@ -11,8 +11,7 @@ trait Sortable
         'asc', 'desc'
     ];
 
-
-    protected function sortTheResult(InputInterface $input, array $result, $orderBy): array
+    protected function sortResult(InputInterface $input, array $packages, $orderBy): array
     {
         // sort functionality based on order by parameter , asc or desc
         $sort = SORT_DESC;
@@ -26,7 +25,7 @@ trait Sortable
         if (strtolower($userSelectedOrder) === 'asc') {
             $sort = SORT_ASC;
         }
-        $packages = $result['results'];
+
         $keys = array_column($packages, $orderBy);
         array_multisort($keys, $sort, $packages);
         return $packages;
