@@ -7,6 +7,8 @@ use GuzzleHttp\Promise;
 
 trait PackagistApi
 {
+    protected int $maxLimit = 100;
+
     protected function getAllPackagesFromPackagist()
     {
         $response = $this->client->request('GET', 'packages/list.json', [
@@ -20,13 +22,13 @@ trait PackagistApi
 
     protected function getLimitedResultFromPackagist(InputInterface $input)
     {
+        $limit = $input->getOption('limit');
         $response = $this->client->request('GET', 'search.json', [
             'query' => [
                 'type' => $this->type,
-                'per_page' => $input->getOption('limit')
+                'per_page' => $limit
             ],
         ]);
-
         return json_decode($response->getBody()->getContents(), true)['results'];
     }
 

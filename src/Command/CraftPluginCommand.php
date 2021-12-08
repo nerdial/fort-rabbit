@@ -4,7 +4,7 @@ namespace App\Command;
 
 use App\Traits\PackagistApi;
 use App\Traits\Sortable;
-use App\Entity\CraftPluginPackage;
+use App\Traits\Validation;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
@@ -18,6 +18,7 @@ class CraftPluginCommand extends Command
 
     use Sortable;
     use PackagistApi;
+    use Validation;
 
     // the name of the command (the part after "bin/console")
     protected static $defaultName = 'craft:analyze';
@@ -62,10 +63,11 @@ class CraftPluginCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
 
+        // validating all options before calling apis.
+        $this->validateInput($input);
+
         $orderBy = $input->getOption('orderBy');
-        if (!in_array(strtolower($orderBy), $this->orderByOptions)) {
-            throw new \Exception($orderBy . ' is not supported as order');
-        }
+
 
         $packages = $this->getAllPackagesFromPackagist();
 
@@ -105,8 +107,8 @@ class CraftPluginCommand extends Command
     protected function createOutput(InputInterface $input, OutputInterface $output, array $packages)
     {
 
-
-        $headers = ['Name', 'Description', 'Updated', 'Handle', 'Repository', 'Downloads', 'Dependents', 'Favers'];
+        $headers = ['Name', 'Description', 'Updated', 'Handle',
+            'Repository', 'Downloads', 'Dependents', 'Favers'];
         $data = [];
         foreach ($packages as $item) {
             $data [] = [
