@@ -7,11 +7,19 @@ use Symfony\Component\Console\Input\InputInterface;
 trait Validation
 {
     protected int $maxLimit = 100;
-
+    protected array $orderTypeOptions = [
+        'asc', 'desc'
+    ];
     protected function validateInput(InputInterface $input) :bool
     {
         $limit = $input->getOption('limit');
         $orderBy = $input->getOption('orderBy');
+        $order = $input->getOption('order');
+
+        if(!in_array($order, $this->orderTypeOptions)){
+            throw new \Exception('--order option only supports desc or asc ');
+        }
+
         if (!is_numeric($limit)){
             throw new \Exception('Please provide a number, maximum 100');
         }
