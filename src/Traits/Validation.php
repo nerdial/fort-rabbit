@@ -41,7 +41,7 @@ trait Validation
 
     public function validateOrderOption($order): bool
     {
-        if (!in_array($order, $this->orderTypeOptions)) {
+        if (!in_array(strtolower($order), $this->orderTypeOptions)) {
             throw new \InvalidArgumentException('--order option only supports desc or asc ');
         }
 

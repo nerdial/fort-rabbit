@@ -65,8 +65,6 @@ class CraftPluginCommand extends Command
         // validating all options before calling apis.
         $this->validateInput($input);
 
-        $orderBy = $input->getOption('orderBy');
-
         $packages = $this->getAllPackagesFromPackagist();
 
         // create abandoned filter
@@ -84,7 +82,7 @@ class CraftPluginCommand extends Command
         $packages = $this->getEachPackageSeparately($packageNames);
 
         // order the result based on --orderBy and --order option, default to downloads / desc
-        $packages = $this->sortResult($input, $packages, $orderBy);
+        $packages = $this->sortResult($input, $packages);
 
         // generate the final result, it might be console table or json file
         $this->createOutput($input, $output, $packages);
