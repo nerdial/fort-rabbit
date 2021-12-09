@@ -106,11 +106,13 @@ class CraftPluginCommand extends Command
     protected function createOutput(InputInterface $input, OutputInterface $output, array $packages)
     {
 
-        $headers = ['Name', 'Description', 'Updated', 'Handle',
+        $headers = ['ID', 'Name', 'Description', 'Updated', 'Handle',
             'Repository', 'Downloads', 'Dependents', 'Favers', 'Version'];
         $data = [];
+        $counter = 1;
         foreach ($packages as $item) {
             $data [] = [
+                $counter++,
                 $item['name'],
                 $item['description'],
                 $item['updated'],
