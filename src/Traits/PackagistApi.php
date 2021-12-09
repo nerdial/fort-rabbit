@@ -48,19 +48,21 @@ trait PackagistApi
             if (!isset($response['value'])) continue;
             $result = $response['value'];
             $data = json_decode($result->getBody()->getContents(), true)['package'];
-            $firstVersion = array_values($data['versions'])[0];
 
-            if (!isset($firstVersion['extra']) && !isset($firstVersion['extra']['handle'])) continue;
+            // hopefully, based on the conversation i had, this should be the latest version
+            $latestVersion = array_values($data['versions'])[0];
 
-            $extraHandle = $firstVersion['extra']['handle'];
+            if (!isset($latestVersion['extra']) && !isset($latestVersion['extra']['handle'])) continue;
+
+            $extraHandle = $latestVersion['extra']['handle'];
 
             $packages[] = [
                 'name' => $data['name'],
                 'description' => $data['description'],
-                'updated' => $data['time'],
+                'updated' => $latestVersion['time'],
                 'handle' => $extraHandle,
                 'repository' => $data['repository'],
-                'version' => $firstVersion,
+                'version' => $latestVersion['version'],
                 'downloads' => $data['downloads']['monthly'],
                 'dependents' => $data['dependents'],
                 'favers' => $data['favers'],

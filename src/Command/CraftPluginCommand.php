@@ -107,7 +107,7 @@ class CraftPluginCommand extends Command
     {
 
         $headers = ['Name', 'Description', 'Updated', 'Handle',
-            'Repository', 'Downloads', 'Dependents', 'Favers'];
+            'Repository', 'Downloads', 'Dependents', 'Favers', 'Version'];
         $data = [];
         foreach ($packages as $item) {
             $data [] = [
@@ -119,6 +119,7 @@ class CraftPluginCommand extends Command
                 $item['downloads'],
                 $item['dependents'],
                 $item['favers'],
+                $item['version'],
             ];
         }
 
