@@ -43,3 +43,9 @@ php rabbit craft:analyze --output sample-output.json
 ```
 
 
+### Run the unit tests
+
+```bash
+./vendor/bin/phpunit  src/Tests
+```
+

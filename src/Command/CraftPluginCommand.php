@@ -67,23 +67,26 @@ class CraftPluginCommand extends Command
 
         $orderBy = $input->getOption('orderBy');
 
-
         $packages = $this->getAllPackagesFromPackagist();
 
         // create abandoned filter
         $this->createBlacklist($packages);
 
+        // get limited result from packagist based on --limit option
         $limitedResult = $this->getLimitedResultFromPackagist($input);
 
         // filter the result and remove abandoned packages
         $result = $this->removeBlacklistFromResult($limitedResult);
 
-
         $packageNames = array_column($result, 'name');
+
+        // call the api to get all packages based and generate result
         $packages = $this->getEachPackageSeparately($packageNames);
 
-
+        // order the result based on --orderBy and --order option, default to downloads / desc
         $packages = $this->sortResult($input, $packages, $orderBy);
+
+        // generate the final result, it might be console table or json file
         $this->createOutput($input, $output, $packages);
 
         return Command::SUCCESS;
