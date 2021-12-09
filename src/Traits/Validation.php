@@ -6,7 +6,7 @@ use Symfony\Component\Console\Input\InputInterface;
 
 trait Validation
 {
-
+    protected int $maxLimit = 100;
 
     protected function validateInput(InputInterface $input) :bool
     {
@@ -17,7 +17,7 @@ trait Validation
         }
 
         if($limit > $this->maxLimit){
-            throw new \Exception('--limit should not be more than 100');
+            throw new \Exception('--limit must not exceed 100, packagist limitation');
         }
 
         if (!in_array(strtolower($orderBy), $this->orderByOptions)) {

@@ -22,7 +22,6 @@ class CraftPluginCommand extends Command
 
     // the name of the command (the part after "bin/console")
     protected static $defaultName = 'craft:analyze';
-
     protected Client $client;
     protected string $type = "craft-plugin";
     protected string $orderBy = 'downloads';

@@ -7,7 +7,6 @@ use GuzzleHttp\Promise;
 
 trait PackagistApi
 {
-    protected int $maxLimit = 100;
 
     protected function getAllPackagesFromPackagist()
     {
